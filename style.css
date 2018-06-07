@@ -1,0 +1,64 @@
+/* Do it in style */
+html, body {
+    height:                         100%;
+}
+
+body{
+    margin:                         0;
+    font-family:                    'Montserrat', sans-serif;
+}
+
+h1 {
+    position:                       absolute;
+    vertical-align:                 middle;
+    width:                          100%;
+    text-align:                     center;
+    color:                          rgba(255, 255, 255, .8);
+    font-size:                      10em;
+    text-shadow:                    0 0 3px #fff, 0 0 15px #bbb;
+}
+
+h2 {
+    text-align:                     center;
+    font-size:                      36;
+}
+
+.parallax {
+    background-image:               url("background_top.jpg");
+    height:                         60%;
+    background-attachment:          fixed;
+    background-position:            center;
+    background-repeat:              no-repeat;
+    background-size:                cover;
+}
+
+.content {
+    max-height:                     300px;
+    max-width:                      800px;
+    font-size:                      24px;
+    margin:                         auto;
+    text-align:                     justify;
+    padding-bottom:                 36px;
+}
+.gif {
+    position:                       absolute;
+    margin:                         5em auto;
+    left:                           0;
+    right:                          0;
+    width:                          800px;
+    height:                         350px;
+}
+
+iframe{
+    border:                         0;
+    box-shadow:                     0px 0px 15px #000;
+}
+
+.copyrights{
+    vertical-align:                 middle;
+    text-align:                     center;
+    line-height:                    70px;
+    color:                          #000;
+    font-weight:                    bold;
+    opacity:                        .45;
+}
