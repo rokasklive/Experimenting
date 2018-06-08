@@ -25,11 +25,14 @@ h2 {
 
 .parallax {
     background-image:               url("background_top.jpg");
-    height:                         60%;
+    height:                         500px;
     background-attachment:          fixed;
     background-position:            center;
     background-repeat:              no-repeat;
-    background-size:                cover;
+    -webkit-background-size:        cover;
+   -moz-background-size:            cover;
+   -ms-background-size:             cover;
+   background-size:                 cover;
 }
 
 .content {
